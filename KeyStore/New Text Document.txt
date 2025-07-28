@@ -1,0 +1,46 @@
+D:\work\FreeLances\Ancient Ludo\ancientludo\KeyStore>"C:\Program Files\Java\jdk-22\bin\keytool.exe" -list -v -keystore ancientludo.keystore -alias ancientludo
+Enter keystore password:
+Alias name: ancientludo
+Creation date: 1 Jun 2025
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=sanjay, , L=delhi, ST=delhi, C=91
+Issuer: CN=sanjay, , L=delhi, ST=delhi, C=91
+Serial number: ee940c2fd572a795
+Valid from: Sun Jun 01 21:45:16 IST 2025 until: Thu Oct 17 21:45:16 IST 2052
+Certificate fingerprints:
+         SHA1: D5:8C:27:1D:C4:C2:5A:02:0C:54:B7:A9:30:7C:7A:D3:E0:46:AF:DD
+         SHA256: C9:86:3B:82:E6:03:41:5C:08:3C:A7:1E:E5:04:CF:70:D2:3B:48:B5:E5:80:E0:F9:08:45:64:5E:D8:B1:1D:B3
+Signature algorithm name: SHA384withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: FD 5A 44 0E 2D 83 27 44   BF 97 25 6C F4 E4 D7 B1  .ZD.-.'D..%l....
+0010: 65 2E 30 23                                        e.0#
+]
+
+
+C:\Program Files\Unity\Hub\Editor\6000.0.30f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin>keytool -list -v -keystore "D:\work\FreeLances\Ancient Ludo\Source code\LUDO\KeyStore\Admin.keystore"
+Enter keystore password:
+
+Alias name: admin
+Creation date: 01-Jun-2025
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: C=91, ST=delhi, L=delhi, O=Ancient Ludo, OU=na, CN=Sanjay
+Issuer: C=91, ST=delhi, L=delhi, O=Ancient Ludo, OU=na, CN=Sanjay
+Serial number: 4a6ac1de
+Valid from: Sun Jun 01 21:16:32 IST 2025 until: Mon May 20 21:16:32 IST 2075
+Certificate fingerprints:
+         SHA1: 73:0F:29:B2:31:5A:48:21:9D:17:60:D6:E1:D6:E4:A5:89:C3:1A:F1
+         SHA256: E0:A6:17:F2:00:C8:C7:30:B9:9D:7A:BD:CF:27:0E:CB:79:68:A0:A6:D1:CF:60:7C:D9:B2:F1:32:F6:6A:4A:52
+Signature algorithm name: SHA1withRSA (weak)
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
